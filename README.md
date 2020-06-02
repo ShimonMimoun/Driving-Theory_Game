@@ -1,5 +1,11 @@
 # DrivingTheory Game
 
+This game is a game created for profit as part of university study.
+The goal of this game is to teach people the rules of the road while playing in an attractive game.
+Car accidents are the leading cause of death in the world, that's why we want to sensitize people from a young age, to learn the right rules of the road.
+
+
+
 
 
 ## Use 
@@ -15,3 +21,9 @@
 ## Asset
 
 * [Free traffic asseet](https://assetstore.unity.com/packages/3d/props/free-traffic-essentials-asset-pack-125092)
+
+## Author
+
+* [Shimon Mimoun](https://github.com/ShimonMimoun)
+* [Bar Genish](https://github.com/bargenish44 )
+* [Naor Eliav](https://github.com/naor94)
