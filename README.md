@@ -4,8 +4,7 @@ This game is a game created for profit as part of university study.
 The goal of this game is to teach people the rules of the road while playing in an attractive game.
 Car accidents are the leading cause of death in the world, that's why we want to sensitize people from a young age, to learn the right rules of the road.
 
-
-
+<img src="https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/Picture1.png">
 
 
 ## Use 
