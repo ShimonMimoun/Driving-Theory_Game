@@ -1,4 +1,4 @@
-# DrivingTheory Game
+# Driving Theory Game
 
 
 ## Purpose 
