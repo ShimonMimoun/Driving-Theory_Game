@@ -5,14 +5,9 @@
   ![Menu Game](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/1.png)
 
 
-View:
 
-![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example.gif)
-
-
-Play : 
-
-[Click Here to Play ](https://bargenish.itch.io/driving-master)
+***Play : 
+[Click Here to Play ](https://bargenish.itch.io/driving-master)***
 
 ##  Purpose
 
@@ -38,6 +33,13 @@ if you don't stop, you receive msg :
 
 ![Example 3](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/4.png)
   
+
+
+View:
+
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example.gif)
+
+
 
 ##  Use
 
@@ -65,6 +67,10 @@ if you don't stop, you receive msg :
 * [Free traffic asseet](https://assetstore.unity.com/packages/3d/props/free-traffic-essentials-asset-pack-125092)
 
   
+## Explains/Ideas 
+
+[Ideas of our game ](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/%D7%9E%D7%98%D7%9C%D7%94%205%20%D7%9E%D7%AA%D7%92%D7%9C%D7%92%D7%9C%D7%AA.pdf)
+
 
 ##  Author
 
