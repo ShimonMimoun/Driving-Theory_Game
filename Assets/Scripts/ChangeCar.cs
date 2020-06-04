@@ -14,9 +14,10 @@ public class ChangeCar : MonoBehaviour
         carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.position = GameObject.Find("Car").transform.position;
         carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.rotation = GameObject.Find("Car").transform.rotation;
         carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.localScale = GameObject.Find("Car").transform.localScale;
-        Camera.main.transform.parent = carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform;
-
+        Camera.main.transform.parent = carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.Find("Body").transform;
+ 
+        carSelector.GetComponent<CarSelectionScript>().Cars[carInd].AddComponent<CarSpeed>();
+        carSelector.GetComponent<CarSelectionScript>().Cars[carInd].AddComponent<Collids>();
         Destroy(GameObject.Find("Car"));
-        carSelector.AddComponent<Collids>();
     }
 }

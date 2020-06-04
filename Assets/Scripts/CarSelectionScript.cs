@@ -9,7 +9,7 @@ public class CarSelectionScript : MonoBehaviour
     void Start()
     {
         Cars[0].SetActive(true);
-        for (int i =1;i<Cars.Count; i++)
+        for (int i = 1; i < Cars.Count; i++)
         {
             Cars[i].SetActive(false);
         }
@@ -19,11 +19,14 @@ public class CarSelectionScript : MonoBehaviour
 
     public void LoadCar(int i)
     {
+        carSelected += i;
+        carSelected %= Cars.Count;
+        while (carSelected < 0) carSelected += Cars.Count;
+        Debug.Log(carSelected);
         for (int j = 0; j < Cars.Count; j++)
         {
-            if (i == j) Cars[j].SetActive(true);
+            if (carSelected == j) Cars[j].SetActive(true);
             else Cars[j].SetActive(false);
         }
-        carSelected = i;
     }
 }

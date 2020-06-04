@@ -7,25 +7,31 @@ using UnityEngine.UI;
 public class Collids : MonoBehaviour
 {
     [SerializeField] private string errorMSG = "This way you will never get a driving license!!!";
-    public GameObject Panel;
+    [SerializeField] public GameObject panel;
+    private bool firstHit = false;
 
     public void start()
     {
-        if (Panel != null) Panel.SetActive(false);
-        else
-        {
-            Panel = GameObject.Find("Canvas").transform.Find("Panel").gameObject;
-            if (Panel != null) Panel.SetActive(false);
-        }
+        panel = GameObject.Find("Canvas").transform.Find("Panel").gameObject;
+        if (panel != null) panel.SetActive(false);
     }
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        if (other.tag != "StopLine" && other.tag != "Road")
+        if (other.tag == "Accident" || other.tag == "Road") // crash into roundabout
         {
-            Panel.GetComponentInChildren<TextMeshProUGUI>().text = errorMSG;
-            Panel.SetActive(true);
-            yield return new WaitForSeconds(3);
-            Panel.SetActive(false);
+            if (!firstHit)
+            {
+                panel = GameObject.Find("Canvas").transform.Find("Panel").gameObject;
+                firstHit = true;
+            }
+            else
+            {
+                panel.GetComponentInChildren<TextMeshProUGUI>().text = errorMSG;
+                panel.SetActive(true);
+                yield return new WaitForSeconds(3);
+                panel.SetActive(false);
+            }
         }
     }
 }
+    

@@ -8,6 +8,7 @@ TagManager:
   - StopLine
   - Road
   - SelectedCar
+  - Accident
   layers:
   - Default
   - TransparentFX
