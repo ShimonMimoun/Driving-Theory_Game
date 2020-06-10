@@ -9,6 +9,7 @@ TagManager:
   - Road
   - SelectedCar
   - Accident
+  - Destination
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class StopLine : MonoBehaviour
+public class StopLine : MistakeCost
 {
     float time = 0;
     public GameObject Panel;
@@ -29,6 +29,7 @@ public class StopLine : MonoBehaviour
         {
             Panel.GetComponentInChildren<TextMeshProUGUI>().text = mistake;
             Panel.SetActive(true);
+            GameObject.Find("ScoreSystem").GetComponent<ScoreManager>().DecrreaseScore(this.mistakeCost);
             yield return new WaitForSeconds(3);
             Panel.SetActive(false);
         }
