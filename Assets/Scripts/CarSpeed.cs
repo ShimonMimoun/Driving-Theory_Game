@@ -44,7 +44,6 @@ public class CarSpeed : MistakeCost
         try
         {
             speedPanel.GetComponentInChildren<TextMeshProUGUI>().text = screenMsg;
-            speedPanel.GetComponentInChildren<TextMeshProUGUI>().color = Color.black;
         }
         catch (Exception e) { }
     }

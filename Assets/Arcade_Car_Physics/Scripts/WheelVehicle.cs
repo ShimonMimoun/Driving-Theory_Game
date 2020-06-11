@@ -30,7 +30,6 @@ namespace VehicleBehaviour {
         [SerializeField] string turnInput = "Horizontal";
         [SerializeField] string jumpInput = "Jump";
         [SerializeField] string driftInput = "Drift";
-	    [SerializeField] string boostInput = "Boost";
         
         /* 
          *  Turn input curve: x real input, y value used
@@ -143,10 +142,10 @@ namespace VehicleBehaviour {
 
         [Header("Boost")]
         // Disable boost
-        [HideInInspector] public bool allowBoost = true;
+        [HideInInspector] public bool allowBoost = false;
 
         // Maximum boost available
-        [SerializeField] float maxBoost = 10f;
+        [SerializeField] float maxBoost = 0f;
         public float MaxBoost { get { return maxBoost; } set {maxBoost = value;} }
 
         // Current boost available
@@ -236,8 +235,6 @@ namespace VehicleBehaviour {
                 {
                     throttle = GetInput(throttleInput) - GetInput(brakeInput);
                 }
-                // Boost
-                boosting = (GetInput(boostInput) > 0.5f);
                 // Turn
                 steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
                 // Dirft
