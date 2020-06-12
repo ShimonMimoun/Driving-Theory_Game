@@ -38,6 +38,7 @@ if you don't stop, you receive msg :
 View:
 
 ![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example3.gif)
 
 
 
