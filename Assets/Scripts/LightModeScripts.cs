@@ -11,6 +11,7 @@ public class LightModeScripts : MonoBehaviour
     public string redMode = "red";
     public string yellowMode = "yellow";
     public string yellowRedMode = "yellow and red";
+    public bool blink = false;
 
     void Start()
     {
@@ -32,24 +33,28 @@ public class LightModeScripts : MonoBehaviour
             LightRed.enabled = true;
             LightYellow.enabled = false;
             LightGreen.enabled = false;
+            blink = false;
         }
         else if (mode.Equals(yellowMode))
         {
             LightRed.enabled = false;
             LightYellow.enabled = true;
             LightGreen.enabled = false;
+            blink = false;
         }
         else if (mode.Equals(greenMode))
         {
             LightRed.enabled = false;
             LightYellow.enabled = false;
             LightGreen.enabled = true;
+            blink = true;
         }
         else if (mode.Equals(yellowRedMode))
         {
             LightRed.enabled = true;
             LightYellow.enabled = true;
             LightGreen.enabled = false;
+            blink = false;
         }
     }
 

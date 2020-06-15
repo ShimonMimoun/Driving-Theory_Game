@@ -11,6 +11,8 @@ TagManager:
   - Accident
   - Destination
   - Sign
+  - traffic light
+  - traffic light manager
   layers:
   - Default
   - TransparentFX

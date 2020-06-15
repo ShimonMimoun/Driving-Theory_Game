@@ -105,7 +105,6 @@ namespace VehicleBehaviour
 				{
 					_vehicle.Throttle = d.throttle;
 					_vehicle.Steering = d.steering;
-					_vehicle.boosting = d.boost;
 					_vehicle.Drift = d.drift;
 				}
 
@@ -246,7 +245,6 @@ namespace VehicleBehaviour
 
 				d.throttle = _vehicle.Throttle;
 				d.steering = _vehicle.Steering;
-				d.boost = _vehicle.boosting;
 				d.drift = _vehicle.Drift;
 
 				_data.Add(d);
