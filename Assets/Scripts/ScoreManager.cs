@@ -37,7 +37,7 @@ public class ScoreManager : MonoBehaviour
     {
         score -= num;
         if (score < minPossibleScore)
-            sceneCtrl.GetComponent<SceneCtrl>().ChangeScene("GameOver");
+            sceneCtrl.GetComponent<SceneCtrl>().ChangeScene("Lost");
     }
 
     public void ShowScore()
