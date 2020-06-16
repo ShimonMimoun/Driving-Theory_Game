@@ -161,13 +161,28 @@ PrefabInstance:
     - target: {fileID: 5462918380448299599, guid: ca6c5ed69981a7c35924ab5a07de885b,
         type: 3}
       propertyPath: m_Name
-      value: Car04
+      value: Car04 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462918380448299599, guid: ca6c5ed69981a7c35924ab5a07de885b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3789329188671962665, guid: ca6c5ed69981a7c35924ab5a07de885b,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5923283832515839669, guid: ca6c5ed69981a7c35924ab5a07de885b,
+        type: 3}
+      propertyPath: leftLight
+      value: 
+      objectReference: {fileID: 227101232}
+    - target: {fileID: 5923283832515839669, guid: ca6c5ed69981a7c35924ab5a07de885b,
+        type: 3}
+      propertyPath: rightLight
+      value: 
+      objectReference: {fileID: 1971427174}
     - target: {fileID: 5462918380448299598, guid: ca6c5ed69981a7c35924ab5a07de885b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -223,16 +238,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5923283832515839669, guid: ca6c5ed69981a7c35924ab5a07de885b,
-        type: 3}
-      propertyPath: leftLight
-      value: 
-      objectReference: {fileID: 227101232}
-    - target: {fileID: 5923283832515839669, guid: ca6c5ed69981a7c35924ab5a07de885b,
-        type: 3}
-      propertyPath: rightLight
-      value: 
-      objectReference: {fileID: 1971427174}
     m_RemovedComponents:
     - {fileID: 7954325187652033098, guid: ca6c5ed69981a7c35924ab5a07de885b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ca6c5ed69981a7c35924ab5a07de885b, type: 3}

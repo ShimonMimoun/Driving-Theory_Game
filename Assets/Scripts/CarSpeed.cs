@@ -37,7 +37,6 @@ public class CarSpeed : MistakeCost
             try
             {
                 scoreSystem.GetComponent<ScoreManager>().DecrreaseScore(this.mistakeCost * Time.deltaTime);
-                Debug.Log(mistakeCost);
             }
             catch (Exception e) { }
         }

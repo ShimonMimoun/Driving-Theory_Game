@@ -21,18 +21,15 @@ public class ChangeCar : MonoBehaviour
             Camera.main.transform.parent = carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.Find("Body").transform;
             carSelector.GetComponent<CarSelectionScript>().Cars[carInd].AddComponent<CarSpeed>();
             carSelector.GetComponent<CarSelectionScript>().Cars[carInd].AddComponent<Collids>();
-            carSelector.GetComponent<CarSelectionScript>().Cars[carInd].GetComponent<WheelVehicle>().enabled = true;
         }
         else
         {
-            startPos = GameObject.Find("StartPos");
             Transform current = startPos.transform;
             GameObject carSelector = GameObject.Find("CarSelectorScript");
             int carInd = carSelector.GetComponent<CarSelectionScript>().carSelected;
             carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.position = current.transform.position;
             carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.rotation = current.transform.rotation;
             carSelector.GetComponent<CarSelectionScript>().Cars[carInd].transform.localScale = current.transform.localScale;
-            carSelector.GetComponent<CarSelectionScript>().Cars[carInd].GetComponent<WheelVehicle>().enabled = true;
         }
     }
 }

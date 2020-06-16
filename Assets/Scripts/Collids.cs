@@ -23,12 +23,22 @@ public class Collids : MonoBehaviour
         panel = GameObject.Find("Canvas").transform.Find("Panel").gameObject;
         if (other.tag == "Accident" || other.tag == "Road" || other.tag == "Sign") // crash into roundabout
         {
-                if (scoreSystem == null) scoreSystem = GameObject.Find("ScoreSystem");
-                panel.GetComponentInChildren<TextMeshProUGUI>().text = other.GetComponent<MistakeCost>().MistakeMSG + "\n minus "+ other.GetComponent<MistakeCost>().mistakeCost + "points"; 
-                panel.SetActive(true);
-                scoreSystem.GetComponent<ScoreManager>().DecrreaseScore(other.GetComponent<MistakeCost>().mistakeCost);
-                yield return new WaitForSeconds(3);
-                panel.SetActive(false);
+            if (scoreSystem == null) scoreSystem = GameObject.Find("ScoreSystem");
+            panel.GetComponentInChildren<TextMeshProUGUI>().text = other.GetComponent<MistakeCost>().MistakeMSG + "\n minus " + other.GetComponent<MistakeCost>().mistakeCost + "points";
+            panel.SetActive(true);
+            scoreSystem.GetComponent<ScoreManager>().DecrreaseScore(other.GetComponent<MistakeCost>().mistakeCost);
+            yield return new WaitForSeconds(3);
+            panel.SetActive(false);
+        }
+        if (other.tag == "AccidentCar")
+        {
+            if (scoreSystem == null) scoreSystem = GameObject.Find("ScoreSystem");
+            panel.GetComponentInChildren<TextMeshProUGUI>().text = other.GetComponent<MistakeCost>().MistakeMSG + "\n minus " + other.GetComponent<MistakeCost>().mistakeCost + "points";
+            panel.SetActive(true);
+            scoreSystem.GetComponent<ScoreManager>().DecrreaseScore(other.GetComponent<MistakeCost>().mistakeCost);
+            other.gameObject.SetActive(false);
+            yield return new WaitForSeconds(3);
+            panel.SetActive(false);
         }
         if (other.tag == "Destination")
         {
@@ -41,7 +51,7 @@ public class Collids : MonoBehaviour
             levelUp();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // load next level
         }
-        if(other.tag == "traffic light")
+        if (other.tag == "traffic light")
         {
             this.lastTL = other.gameObject;
             if (scoreSystem == null) scoreSystem = GameObject.Find("ScoreSystem");
@@ -50,6 +60,7 @@ public class Collids : MonoBehaviour
                 panel.GetComponentInChildren<TextMeshProUGUI>().text = other.GetComponent<MistakeCost>().MistakeMSG + "\n minus " + other.GetComponent<MistakeCost>().mistakeCost + "points";
                 panel.SetActive(true);
                 scoreSystem.GetComponent<ScoreManager>().DecrreaseScore(other.GetComponent<MistakeCost>().mistakeCost);
+                Debug.Log(other.GetComponent<MistakeCost>().mistakeCost);
                 yield return new WaitForSeconds(1);
                 panel.SetActive(false);
             }

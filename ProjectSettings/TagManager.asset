@@ -13,6 +13,8 @@ TagManager:
   - Sign
   - traffic light
   - traffic light manager
+  - point
+  - AccidentCar
   layers:
   - Default
   - TransparentFX

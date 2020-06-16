@@ -160,7 +160,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1502660254939198, guid: d336129092c294dbc9e704e522469cbe, type: 3}
       propertyPath: m_Name
-      value: Car05
+      value: Car05 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1502660254939198, guid: d336129092c294dbc9e704e522469cbe, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 114408707463109392, guid: d336129092c294dbc9e704e522469cbe,
         type: 3}
