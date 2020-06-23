@@ -2,7 +2,7 @@
 
 #  Driving School
 
-![Menu Game](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/menu.png)
+![Menu Game](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/menu.png)
 
 
 
@@ -26,7 +26,7 @@ Car accidents are the leading cause of death in the world, that's why we want to
   
 ## Instruction
 
-![Menu Game](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/instruction.png)
+![Menu Game](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/instruction.png)
 
 ***Level 1 :*** 
 
@@ -49,26 +49,26 @@ In the last step of the game you must pay attention to the important law of spee
 
 ##  Screens Game
 
-![Example 1:](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/2.png)
+![Example 1:](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/2.png)
 
 if you don't stop, you receive msg :
 
-![Example 1.2](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/3.png) 
+![Example 1.2](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/3.png) 
   
   if you lost 
 
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/lost.png)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/lost.png)
 
 
 View:
 
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/example1.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example1.gif)
 
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/example2.gif)
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/example3.gif)
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/example4.gif)
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/example5.gif)
-![](https://github.com/ShimonMimounGame/Driving-Theory_Game/blob/master/Documentation/example6.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example2.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example3.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example4.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example5.gif)
+![](https://github.com/ShimonMimoun/Driving-Theory_Game/blob/master/Documentation/example6.gif)
 
 
 
