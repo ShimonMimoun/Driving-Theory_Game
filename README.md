@@ -43,6 +43,7 @@ There will  be road margins and speed limit as in the previous step.
 At this step you will meet some new traffic rules. One-way road, when you notice a one-way traffic sign the law says that in this way you can only drive in one direction and traffic in the opposite direction is prohibited. Another rule that will appear at this step is No Enterence  signpost. This signpost means that entering this road for any vehicle is prohibited. Another situation you will meet at this step is a traffic jam. In traffic jams you must be patient and keep  distance from the vehicle in front of you to prevent an accident. In addition at this stage there will be traffic lights, traffic circle and margins as in the previous stages.
 
 ***Level 4:***
+
 In the last step of the game you must pay attention to the important law of speed change in different ways. For example, when you enter an interstate, you need to lower the speed to 50 km / h. When you enter the highway the speed limit is usually 90 km / h. At this step in addition there will be pedestrians and traffic lights as in the previous stages
 
 
